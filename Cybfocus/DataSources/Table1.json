@@ -1,0 +1,18 @@
+[
+  {
+    "Data": "[{\"Description\":\"This Simplilearn video on Cyber Security In 7 Minutes will explain what is cyber security how it works, why cyber security, who is a cyber security expert, and what are the different types of cyberattacks with examples. Now, let\\u0027s begin this cyber security video!\",\"Title\":\"What Is Cyber Security: How It Works? \",\"YouTube_Links\":\"https://www.youtube.com/watch?v=inWWhr5tnEA\\u0026ab_channel=Simplilearn\"},{\"Description\":\"Computer security, cybersecurity or information technology security is the protection of computer systems and networks from the theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide.\\nNetwork security consists of the policies and practices adopted to prevent and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources.\",\"Title\":\"Cybersecurity vs Network security vs Information security \",\"YouTube_Links\":\"https://www.youtube.com/watch?v=nj0uYpjEqwU\\u0026ab_channel=Cyber_Ethics\"},{\"Description\":\"Confidentiality, Integrity, Availability\",\"Title\":\"What is CIA Triad ?\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=hD1VSdT90Ds\\u0026ab_channel=TheCloudMentor\"},{\"Description\":\"This video introduces the term protocols and talks about the concept of layers. \",\"Title\":\"Network Protocols and the 4 Layer Model\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=MVihcigDlbA\\u0026ab_channel=MrBrownCS\"},{\"Description\":\"Browser Cookies, Internet Cookies, HTTP Cookies, Computer Cookies... Cookies have many names. But WHAT THE HECK are they?! Well, sit tight and hold onto your knickers because in this video I answer the question, \\u0022What Are Cookies?\\u0022 And explain How They Work!\",\"Title\":\"What Are Cookies? And How They Work\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=rdVPflECed8\\u0026ab_channel=CreateaProWebsite\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Table1",
+    "OrderedColumnNames": [
+      "Title",
+      "Description",
+      "YouTube_Links"
+    ],
+    "OriginalName": "Table1",
+    "OriginalSchema": "*[Description:s, Title:s, YouTube_Links:h]",
+    "Schema": "*[Description:s, Title:s, YouTube_Links:h]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

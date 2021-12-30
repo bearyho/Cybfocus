@@ -1,0 +1,91 @@
+{
+  "12fc0f74-9aad-4cdd-a706-a01447b1f812": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_excel/connections/50b92c7f6c2d4927a3035c5ff5cd5d93",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1533/1.0.1533.2600/excel/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excel",
+      "parameterHints": {
+        "e150f7b1-5a08-4c06-86c8-bdaebb0f3f5c": {
+          "value": "fileSource"
+        }
+      },
+      "parameterHintsV2": {
+        "fileSource": {
+          "value": "e150f7b1-5a08-4c06-86c8-bdaebb0f3f5c"
+        }
+      }
+    },
+    "datasets": {
+      "b!SUiaRmdBjkiEj2zK82RvqBEzFvNIG_BOoJDvaaPUwnBYDdOLOxirR5yWCn5cZ-X7.01WHPPQOBSXNPMXGWEUFCI3OZZGSSHNPFA": {
+        "dataSources": {
+          "Table1_1": {
+            "tableName": "Table1"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Table1_1"
+    ],
+    "dependencies": {
+      "fileSource": "e150f7b1-5a08-4c06-86c8-bdaebb0f3f5c"
+    },
+    "dependents": [],
+    "id": "12fc0f74-9aad-4cdd-a706-a01447b1f812"
+  },
+  "2fa19b17-b8f6-41cd-be81-f595475e20f6": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/eb5aad5aba644a9eb5000d3c326c27ab",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1539/1.0.1539.2620/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://studentncirl.sharepoint.com/sites/ProjectHDWD_JAN21OL_OMoodleTeam-21": {
+        "dataSources": {
+          "cybfocus": {
+            "tableName": "c7927c2e-8051-432e-8469-8ff61644fb6e"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "cybfocus"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2fa19b17-b8f6-41cd-be81-f595475e20f6"
+  },
+  "e150f7b1-5a08-4c06-86c8-bdaebb0f3f5c": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/0039cbae4687457e88d2a4be18e4ed94",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "OneDrive for Business",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1528/1.0.1528.2589/onedriveforbusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "12fc0f74-9aad-4cdd-a706-a01447b1f812"
+    ],
+    "id": "e150f7b1-5a08-4c06-86c8-bdaebb0f3f5c"
+  }
+}

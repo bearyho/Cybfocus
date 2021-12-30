@@ -1,0 +1,75 @@
+Question10 As screen:
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Label3_9 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =156
+        Size: =21
+        Text: ="Q10. In regards to Antivirus protection, what is behavioral-based detection?"
+        Width: =586
+        X: =15
+        Y: =147
+        ZIndex: =6
+
+    Radio1_9 As radio:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =311
+        Items: |-
+            =["A. Rootkit Detection","B. Sandbox", "C. Heuristic Analysis","D. Machine Learning"
+            ]
+        Size: =21
+        Width: =591
+        X: =21
+        Y: =303
+        ZIndex: =8
+
+    Label2_9 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =122
+        Size: =30
+        Text: ="CYBFOCUS"
+        Width: =640
+        ZIndex: =10
+
+    Button10_9 As button:
+        Fill: =RGBA(189, 17, 117, 1)
+        Height: =70
+        OnSelect: =If(Radio1_9.Selected.Value="B. Sandbox",Set(score,score+1));Navigate(ResultPage,ScreenTransition.Fade)
+        Size: =24
+        Text: ="Finish Quiz"
+        Width: =280
+        X: =309
+        Y: =1017
+        ZIndex: =11
+
+    Image2_10 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =103
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_10.Height
+        RadiusBottomRight: =Image2_10.Height
+        RadiusTopLeft: =Image2_10.Height
+        RadiusTopRight: |
+            =Image2_10.Height
+        Width: =105
+        X: =506
+        Y: =19
+        ZIndex: =12
+
+    Icon2_14 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =82
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Question9)
+        Width: =100
+        X: =16
+        Y: =30
+        ZIndex: =13
+

@@ -1,0 +1,156 @@
+"'News Articles' As screen":
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Label2_17 As label:
+        Align: =Align.Justify
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =54
+        Size: =25
+        Text: ="NEWS ARTICLES"
+        Width: =293
+        X: =20
+        Y: =173
+        ZIndex: =5
+
+    Button6_1 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =89
+        OnSelect: |-
+            =Launch("https://map.lookingglasscyber.com/")
+        Size: =24
+        Text: ="Cyber Threat Map"
+        Width: =311
+        X: =150
+        Y: =772
+        ZIndex: =7
+
+    Label1_3 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(189, 17, 117, 1)
+        Font: =Font.Georgia
+        Height: =108
+        Size: =21
+        Text: ="eLearning Application by Howard Beary"
+        Width: =640
+        Y: =1028
+        ZIndex: =10
+
+    Image2_17 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =208
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_17.Height
+        RadiusBottomRight: =Image2_17.Height
+        RadiusTopLeft: =Image2_17.Height
+        RadiusTopRight: |
+            =Image2_17.Height
+        Width: =218
+        X: =394
+        Y: =19
+        ZIndex: =11
+
+    Icon1_1 As icon.Home:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =107
+        Icon: =Icon.Home
+        OnSelect: =Navigate(HomePage)
+        Width: =104
+        X: =20
+        Y: =41
+        ZIndex: =12
+
+    HtmlText1 As htmlViewer:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =116
+        HtmlText: |-
+            ="<a href='https://www.cybintsolutions.com/cyber-security-facts-stats/'> Alarming Cyber Security Facts and Stats </a>"
+        Width: =469
+        X: =98
+        Y: =276
+        ZIndex: =13
+
+    Image1 As image:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =92
+        Image: =lg_logo
+        OnSelect: |-
+            =Launch("https://map.lookingglasscyber.com/")
+        Width: =511
+        X: =56
+        Y: =849
+        ZIndex: =14
+
+    Icon2 As icon.Send:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Send
+        X: =20
+        Y: =288
+        ZIndex: =15
+
+    Icon2_15 As icon.Send:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Send
+        X: =20
+        Y: =392
+        ZIndex: =16
+
+    Icon2_16 As icon.Send:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Send
+        X: =20
+        Y: =483
+        ZIndex: =17
+
+    Icon2_17 As icon.Send:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Send
+        X: =20
+        Y: =595
+        ZIndex: =18
+
+    HtmlText1_1 As htmlViewer:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =69
+        HtmlText: |-
+            ="<a href='https://portswigger.net/daily-swig/cybercrime'> Cybersecurity News and Views </a>"
+        Width: =469
+        X: =98
+        Y: =392
+        ZIndex: =19
+
+    HtmlText1_2 As htmlViewer:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =116
+        HtmlText: |-
+            ="<a href='https://threatpost.com/'> Threatpost | The first stop for security news </a>"
+        Width: =469
+        X: =98
+        Y: =457
+        ZIndex: =20
+
+    HtmlText1_3 As htmlViewer:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =154
+        HtmlText: |-
+            ="<a href='https://cyware.com/cyber-security-news-articles'> Articles on Cyber Security, Malware Attack updates | Cyware </a>"
+        Width: =469
+        X: =98
+        Y: =566
+        ZIndex: =21
+
+    Icon3 As icon.RadarActivityMonitor:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.RadarActivityMonitor
+        OnSelect: |-
+            =Launch("https://map.lookingglasscyber.com/")
+        X: =461
+        Y: =785
+        ZIndex: =22
+

@@ -1,0 +1,114 @@
+"'eLearning Videos_2' As screen":
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Gallery2_1 As gallery.galleryVertical:
+        Height: =1136
+        Items: =Gallery1_1.Selected
+        Layout: =Layout.Vertical
+        TemplateSize: =623
+        ZIndex: =1
+
+        Label5_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(189, 17, 117, 1)
+            Height: =139
+            OnSelect: =Select(Parent)
+            Size: =12
+            Text: =ThisItem.Description
+            Width: =630
+            Y: =991
+            ZIndex: =1
+
+        Video1_1 As videoPlayback:
+            Fill: =RGBA(0, 16, 96, 1)
+            Height: =380
+            Media: =ThisItem.YouTube_Links
+            Width: =630
+            Y: =609
+            ZIndex: =2
+
+    Label2_14 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =122
+        Size: =30
+        Text: ="CYBFOCUS"
+        Width: =640
+        ZIndex: =2
+
+    Image2_14 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =103
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_14.Height
+        RadiusBottomRight: =Image2_14.Height
+        RadiusTopLeft: =Image2_14.Height
+        RadiusTopRight: |
+            =Image2_14.Height
+        Width: =105
+        X: =499
+        Y: =9
+        ZIndex: =3
+
+    Icon2_1 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =82
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate('eLearning Videos')
+        Width: =100
+        X: =16
+        Y: =30
+        ZIndex: =4
+
+    "Gallery1_1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =486
+        Items: =Table2_1
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(96, Self.Height - 60)
+        Y: =122
+        ZIndex: =5
+
+        Title2_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        NextArrow2_1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        Separator2_1 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =3
+

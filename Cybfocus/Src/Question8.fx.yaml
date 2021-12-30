@@ -1,0 +1,72 @@
+Question8 As screen:
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Label3_7 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =164
+        Size: =21
+        Text: ="Q8. CIA triad stands for what in Cyber Security?"
+        Width: =640
+        Y: =137
+        ZIndex: =6
+
+    Radio1_7 As radio:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =330
+        Items: =["A. Central Intelligence Agency","B. Confidence, Intelligence, Assurance","C. Confidentiality, Integrity, Availability","D. Counter Information Assault"]
+        Size: =21
+        Width: =604
+        X: =17
+        Y: =286
+        ZIndex: =8
+
+    Label2_7 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =122
+        Size: =30
+        Text: ="CYBFOCUS"
+        Width: =640
+        ZIndex: =10
+
+    Button10_7 As button:
+        Fill: =RGBA(189, 17, 117, 1)
+        Height: =70
+        OnSelect: =If(Radio1_7.Selected.Value="C. Confidentiality, Integrity, Availability",Set(score,score+1));Navigate(Question9,ScreenTransition.Fade)
+        Size: =24
+        Text: ="Next Question"
+        Width: =280
+        X: =309
+        Y: =1017
+        ZIndex: =11
+
+    Image2_8 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =103
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_8.Height
+        RadiusBottomRight: =Image2_8.Height
+        RadiusTopLeft: =Image2_8.Height
+        RadiusTopRight: |
+            =Image2_8.Height
+        Width: =105
+        X: =506
+        Y: =19
+        ZIndex: =12
+
+    Icon2_12 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =82
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Question7)
+        Width: =100
+        X: =16
+        Y: =30
+        ZIndex: =13
+

@@ -1,0 +1,18 @@
+[
+  {
+    "Data": "[{\"Description\":\"Understand what is Hacking, what is Programming, and why are they related\",\"Title\":\"What is Programming, What is Hacking \\u0026 Why Learn Them\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=-oY_ENPlzwI\\u0026ab_channel=eLearningEducation\"},{\"Description\":\"What are \\u0022white hat,\\u0022 \\u0022gray hat,\\u0022 and \\u0022black hat\\u0022 hackers, and what are some of the more noteworthy hacks from each group?\",\"Title\":\"Types of Hackers (Hats) Explained\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=Q0F-pv-n_lc\\u0026ab_channel=Techquickie\"},{\"Description\":\"Phishing is a method of trying to gather personal information using deceptive e-mails and websites. Here\\u0027s what you need to know about this increasingly sophisticated form of cyberattack.\",\"Title\":\"What is phishing? Learn how this attack works\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=Y7zNlEMDmI4\\u0026ab_channel=IDGTECHtalk\"},{\"Description\":\"This video is a sample from Skillsoft\\u0027s video course catalog. After watching this video, you will be able to recognize brute-force and dictionary attacks.\",\"Title\":\"Security\\u002B: Brute-Force and Dictionary Attacks\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=SaAwW-6wV_Q\\u0026ab_channel=SkillsoftYouTube\"},{\"Description\":\"A short video explain what is a bot and botnet in relation to cybersecurity.\",\"Title\":\"Bots and Botnets\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=5kA2ney8r1Y\\u0026ab_channel=ProfessorMesser\"},{\"Description\":\"A short video explain what is DoS  and DDoS in relation to cybersecurity.\",\"Title\":\"DoS vs DDoS Attack\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=c9EjuOQRUdg\\u0026ab_channel=YixiaoZhao\"},{\"Description\":\"A simple way to explain the basics of SQL injection through interpretive animation.\",\"Title\":\"SQL Injection\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=FwIUkAwKzG8\\u0026ab_channel=ChristianLinares\"},{\"Description\":\"What you need to know about malware including the difference between computer viruses, worms, Trojans, ransomware and spyware. \",\"Title\":\"Malware: Difference Between Computer Viruses, Worms and Trojans\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=n8mbzU0X2nQ\\u0026ab_channel=Kaspersky\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Table2_1",
+    "OrderedColumnNames": [
+      "Title",
+      "Description",
+      "YouTube_Links"
+    ],
+    "OriginalName": "Table2",
+    "OriginalSchema": "*[Description:s, Title:s, YouTube_Links:h]",
+    "Schema": "*[Description:s, Title:s, YouTube_Links:h]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

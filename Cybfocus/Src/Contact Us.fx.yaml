@@ -1,0 +1,86 @@
+"'Contact Us' As screen":
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Label2_19 As label:
+        Align: =Align.Justify
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =199
+        Size: =25
+        Text: ="CONTACT US"
+        Width: =363
+        X: =7
+        Y: =93
+        ZIndex: =1
+
+    Label1_5 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(189, 17, 117, 1)
+        Font: =Font.Georgia
+        Height: =108
+        Size: =21
+        Text: ="eLearning Application by Howard Beary"
+        Width: =640
+        Y: =1028
+        ZIndex: =2
+
+    Image2_19 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =208
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_19.Height
+        RadiusBottomRight: =Image2_19.Height
+        RadiusTopLeft: =Image2_19.Height
+        RadiusTopRight: |
+            =Image2_19.Height
+        Width: =218
+        X: =394
+        Y: =19
+        ZIndex: =3
+
+    Icon1_3 As icon.Home:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =107
+        Icon: =Icon.Home
+        OnSelect: =Navigate(HomePage)
+        Width: =104
+        X: =20
+        Y: =41
+        ZIndex: =4
+
+    Label5 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =143
+        Size: =40
+        Text: ="How Can We Help? "
+        Width: =561
+        X: =20
+        Y: =292
+        ZIndex: =5
+
+    Button2 As button:
+        Fill: =RGBA(189, 17, 117, 1)
+        Height: =143
+        OnSelect: =Navigate('Contact Us_1')
+        Size: =24
+        Text: ="Contact Form"
+        Width: =372
+        X: =114
+        Y: =588
+        ZIndex: =6
+
+    Label7 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =142
+        Size: =25
+        Text: ="Please Click The Button Below To Fill Out Our Contact Form."
+        Width: =561
+        X: =20
+        Y: =408
+        ZIndex: =7
+

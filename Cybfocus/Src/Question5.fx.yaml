@@ -1,0 +1,75 @@
+Question5 As screen:
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Label3_4 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =156
+        Size: =21
+        Text: |
+            ="Q5. Identify the type of cyberattack where the hackers' system takes over the client's IP address?"
+        Width: =586
+        X: =15
+        Y: =147
+        ZIndex: =6
+
+    Radio1_4 As radio:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =309
+        Items: =["A. DDOS attack","B. Man-in-the-middle Attack","C. Phishing Attack","D. Password Attack"]
+        Size: =21
+        Width: =586
+        X: =27
+        Y: =303
+        ZIndex: =8
+
+    Label2_4 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =122
+        Size: =30
+        Text: ="CYBFOCUS"
+        Width: =640
+        ZIndex: =10
+
+    Button10_4 As button:
+        Fill: =RGBA(189, 17, 117, 1)
+        Height: =70
+        OnSelect: =If(Radio1_4.Selected.Value="B. Man-in-the-middle Attack",Set(score,score+1));Navigate(Question6,ScreenTransition.Fade)
+        Size: =24
+        Text: ="Next Question"
+        Tooltip: =
+        Width: =280
+        X: =309
+        Y: =1017
+        ZIndex: =11
+
+    Image2_5 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =103
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_5.Height
+        RadiusBottomRight: =Image2_5.Height
+        RadiusTopLeft: =Image2_5.Height
+        RadiusTopRight: |
+            =Image2_5.Height
+        Width: =105
+        X: =506
+        Y: =19
+        ZIndex: =12
+
+    Icon2_9 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =82
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Question4)
+        Width: =100
+        X: =16
+        Y: =30
+        ZIndex: =13
+

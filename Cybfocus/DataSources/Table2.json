@@ -1,0 +1,18 @@
+[
+  {
+    "Data": "[{\"Description\":\"b\",\"Title\":\"a\",\"YouTube Link\":\"https://www.youtube.com/watch?v=inWWhr5tnEA\\u0026ab_channel=Simplilearn\"},{\"Description\":\"d \",\"Title\":\"c\",\"YouTube Link\":\"https://www.youtube.com/watch?v=nj0uYpjEqwU\\u0026ab_channel=Cyber_Ethics\"},{\"Description\":\"f\",\"Title\":\"e\",\"YouTube Link\":\"https://www.youtube.com/watch?v=hD1VSdT90Ds\\u0026ab_channel=TheCloudMentor\"},{\"Description\":\"h\",\"Title\":\"g\",\"YouTube Link\":\"https://www.youtube.com/watch?v=MVihcigDlbA\\u0026ab_channel=MrBrownCS\"},{\"Description\":\"j\",\"Title\":\"i\",\"YouTube Link\":\"https://www.youtube.com/watch?v=rdVPflECed8\\u0026ab_channel=CreateaProWebsite\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Table2",
+    "OrderedColumnNames": [
+      "Title",
+      "Description",
+      "YouTube Link"
+    ],
+    "OriginalName": "Table2",
+    "OriginalSchema": "*[Description:s, Title:s, 'YouTube Link':s]",
+    "Schema": "*[Description:s, Title:s, 'YouTube Link':s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

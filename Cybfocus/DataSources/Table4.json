@@ -1,0 +1,18 @@
+[
+  {
+    "Data": "[{\"Description\":\"Advances in technology have changed the way we live and do business. Our world is more connected than ever before, bringing huge benefits as well as huge risks. Ensure your employees know the basics behind cyber security and digital safety. \",\"Title\":\"Understanding Cyber Security - Policy and Compliance\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=aa_ZlfOaXhM\\u0026ab_channel=LitmosHeroes\"},{\"Description\":\"In this video, we walk you through 6 key things to know about cybersecurity as it intersects with public policy.\",\"Title\":\"6 Things to Know about Cybersecurity \\u0026 Public Policy\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=C_asue70Xl8\\u0026ab_channel=TheNationalAcademiesofSciences%2CEngineering%2CandMedicine\"},{\"Description\":\"An expert in cybersecurity and network infrastructure, Nick Espinosa explains his 5 laws of Cybersecurity\",\"Title\":\"The Five Laws of Cybersecurity\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=_nVq7f26-Uo\\u0026ab_channel=TEDxTalks\"},{\"Description\":\"Bring your own device, or BYOD can boost convenience and morale for the employee, but there are some risks that should be managed with a BYOD policy. \",\"Title\":\"5 BYOD Policy Considerations\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=g4TMM7FrmzI\\u0026ab_channel=EyeonTech\"},{\"Description\":\"Alexander Oni explains the balance between ease of access and security.\",\"Title\":\"The Security vs Ease of Access Paradox\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=ZUjYKb9MeFE\\u0026ab_channel=OnlineCyberSecurity\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Table4",
+    "OrderedColumnNames": [
+      "Title",
+      "Description",
+      "YouTube_Links"
+    ],
+    "OriginalName": "Table4",
+    "OriginalSchema": "*[Description:s, Title:s, YouTube_Links:h]",
+    "Schema": "*[Description:s, Title:s, YouTube_Links:h]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

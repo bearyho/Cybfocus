@@ -1,0 +1,75 @@
+Question9 As screen:
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Label3_8 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =156
+        Size: =21
+        Text: ="Q9. What does the accronym BYOD stand for in Cyber Security?				"
+        Width: =586
+        X: =15
+        Y: =147
+        ZIndex: =6
+
+    Radio1_8 As radio:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =315
+        Items: |-
+            =["A. Bring your own Drinks","B. Brute your own Device","C. Bring your own Device","D. Bring your own Developers"	
+            ]
+        Size: =21
+        Width: =589
+        X: =25
+        Y: =290
+        ZIndex: =8
+
+    Label2_8 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =122
+        Size: =30
+        Text: ="CYBFOCUS"
+        Width: =640
+        ZIndex: =10
+
+    Button10_8 As button:
+        Fill: =RGBA(189, 17, 117, 1)
+        Height: =70
+        OnSelect: =If(Radio1_8.Selected.Value="C. Bring your own Device",Set(score,score+1));Navigate(Question10,ScreenTransition.Fade)
+        Size: =24
+        Text: ="Next Question"
+        Width: =280
+        X: =309
+        Y: =1017
+        ZIndex: =11
+
+    Image2_9 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =103
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_9.Height
+        RadiusBottomRight: =Image2_9.Height
+        RadiusTopLeft: =Image2_9.Height
+        RadiusTopRight: |
+            =Image2_9.Height
+        Width: =105
+        X: =506
+        Y: =19
+        ZIndex: =12
+
+    Icon2_13 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =82
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Question8)
+        Width: =100
+        X: =16
+        Y: =30
+        ZIndex: =13
+

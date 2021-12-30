@@ -1,0 +1,74 @@
+Question1 As screen:
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Label2_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =122
+        Size: =30
+        Text: ="CYBFOCUS"
+        Width: =640
+        ZIndex: =5
+
+    Label3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =172
+        Size: =21
+        Text: ="Q1.  Please pick the from the list a malware attack."
+        Width: =593
+        X: =23
+        Y: =140
+        ZIndex: =6
+
+    Image2_1 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =103
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_1.Height
+        RadiusBottomRight: =Image2_1.Height
+        RadiusTopLeft: =Image2_1.Height
+        RadiusTopRight: |
+            =Image2_1.Height
+        Width: =105
+        X: =506
+        Y: =19
+        ZIndex: =10
+
+    Button10_10 As button:
+        Fill: =RGBA(189, 17, 117, 1)
+        Height: =70
+        OnSelect: =If(Radio1.Selected.Value="A. Trojan",Set(score,1),Set(score,0));Navigate(Question2,ScreenTransition.Fade)
+        Size: =24
+        Text: ="Next Question"
+        Width: =280
+        X: =309
+        Y: =1017
+        ZIndex: =11
+
+    Icon1_4 As icon.Home:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =107
+        Icon: =Icon.Home
+        OnSelect: =Navigate(HomePage)
+        Width: =104
+        X: =20
+        Y: =41
+        ZIndex: =12
+
+    Radio1 As radio:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =319
+        Items: =["A. Trojan","B. Typhoon","C. Counter","D. Troy"]
+        Size: =21
+        Width: =561
+        X: =28
+        Y: =326
+        ZIndex: =13
+

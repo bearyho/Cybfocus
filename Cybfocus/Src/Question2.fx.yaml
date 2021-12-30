@@ -1,0 +1,75 @@
+Question2 As screen:
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Label3_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =156
+        Size: =21
+        Text: ="Q2. What tool filters the incoming and outgoing traffic from your device to safeguard your network?"
+        Width: =586
+        X: =15
+        Y: =147
+        ZIndex: =6
+
+    Radio1_1 As radio:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =319
+        Items: |-
+            =["A. Waterwall","B. Brickwall","C. Firewall","D. Fastwall"
+            ]
+        Size: =21
+        Width: =561
+        X: =28
+        Y: =326
+        ZIndex: =8
+
+    Button10_1 As button:
+        Fill: =RGBA(189, 17, 117, 1)
+        Height: =70
+        OnSelect: =If(Radio1_1.Selected.Value="C. Firewall",Set(score,score+1));Navigate(Question3,ScreenTransition.Fade)
+        Size: =24
+        Text: ="Next Question"
+        Width: =280
+        X: =309
+        Y: =1017
+        ZIndex: =9
+
+    Label2_13 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =122
+        Size: =30
+        Text: ="CYBFOCUS"
+        Width: =640
+        ZIndex: =11
+
+    Image2_2 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =103
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_2.Height
+        RadiusBottomRight: =Image2_2.Height
+        RadiusTopLeft: =Image2_2.Height
+        RadiusTopRight: |
+            =Image2_2.Height
+        Width: =105
+        X: =506
+        Y: =19
+        ZIndex: =12
+
+    Icon2_6 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =82
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Question1)
+        Width: =100
+        X: =16
+        Y: =30
+        ZIndex: =13
+

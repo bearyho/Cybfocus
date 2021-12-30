@@ -1,0 +1,75 @@
+Question7 As screen:
+    Fill: =RGBA(0, 16, 96, 1)
+
+    Label3_6 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =156
+        Size: =21
+        Text: ="Q7. What does the protocol TKIP stand for?"
+        Width: =586
+        X: =15
+        Y: =147
+        ZIndex: =6
+
+    Radio1_6 As radio:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =327
+        Items: |-
+            =["A. Temporal Key Integrity Protocol","B. The Key in Process","C. Temporary Key Intelligence Protocol","D. Traffic Key in Process"
+            ]
+        Size: =21
+        Width: =601
+        X: =27
+        Y: =303
+        ZIndex: =8
+
+    Label2_6 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        Font: =Font.'Lato Black'
+        Height: =122
+        Size: =30
+        Text: ="CYBFOCUS"
+        Width: =640
+        ZIndex: =10
+
+    Button10_6 As button:
+        Fill: =RGBA(189, 17, 117, 1)
+        Height: =70
+        OnSelect: =If(Radio1_6.Selected.Value="A. Temporal Key Integrity Protocol",Set(score,score+1));Navigate(Question8,ScreenTransition.Fade)
+        Size: =24
+        Text: ="Next Question"
+        Width: =280
+        X: =309
+        Y: =1017
+        ZIndex: =11
+
+    Image2_7 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =103
+        Image: ='Screenshot 2021-11-29 at 14.33.09'
+        RadiusBottomLeft: =Image2_7.Height
+        RadiusBottomRight: =Image2_7.Height
+        RadiusTopLeft: =Image2_7.Height
+        RadiusTopRight: |
+            =Image2_7.Height
+        Width: =105
+        X: =506
+        Y: =19
+        ZIndex: =12
+
+    Icon2_11 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =82
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Question6)
+        Width: =100
+        X: =16
+        Y: =30
+        ZIndex: =13
+

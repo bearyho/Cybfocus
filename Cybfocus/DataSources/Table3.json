@@ -1,0 +1,18 @@
+[
+  {
+    "Data": "[{\"Description\":\"Everything you need to know about antivirus software, explained in an easy-to-understand way. Discover how an anti-virus works and when you would use one, in this video. \",\"Title\":\"What is an Antivirus and How Does it Work \",\"YouTube_Links\":\"https://www.youtube.com/watch?v=jW626WMWNAE\\u0026ab_channel=SafetyDetectives\"},{\"Description\":\"This video explains 256-bit encryption, public and private keys, SSL \\u0026 TLS and HTTPS\",\"Title\":\"Encryption and public keys\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=6-JjHa-qLPk\\u0026ab_channel=KhanAcademy\"},{\"Description\":\"This is a short animated video on What Is A Firewall? \",\"Title\":\"What Is A Firewall? \",\"YouTube_Links\":\"https://www.youtube.com/watch?v=9GZlVOafYTg\\u0026ab_channel=Simplilearn\"},{\"Description\":\"A honeypot in cybersecurity is a decoy set up to appear to hackers like a high-value asset, like a server.\",\"Title\":\"What is a Honeypot ? Honeypot Benefits and Risks\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=gtk2qphHKmA\\u0026ab_channel=EyeonTech\"},{\"Description\":\"With biometrics, your password is your face -- or fingerprint, or voice, or eye. Biometrics intends to offer higher security over personal or enterprise devices or systems. \",\"Title\":\"What is Biometrics? Types of Biometric Data and Uses\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=1nKE7sbQKtU\\u0026ab_channel=EyeonTech\"},{\"Description\":\"Some helpful tips to make sure you don\\u0027t jeopardize your safety over Wi-Fi wherever you go?\",\"Title\":\"Wi-Fi Security\",\"YouTube_Links\":\"https://www.youtube.com/watch?v=T5HCy3udooo\\u0026ab_channel=Techquickie\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Table3",
+    "OrderedColumnNames": [
+      "Title",
+      "Description",
+      "YouTube_Links"
+    ],
+    "OriginalName": "Table3",
+    "OriginalSchema": "*[Description:s, Title:h, YouTube_Links:h]",
+    "Schema": "*[Description:s, Title:h, YouTube_Links:h]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
