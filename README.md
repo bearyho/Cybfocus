@@ -4,7 +4,6 @@ https://apps.powerapps.com/play/68bd0ade-b2cd-4909-9ecc-0efdab16d0e3?tenantId=6e
 
 # Power Apps Source File Pack and Unpack Utility
 
-must have access to NCI MS 365 to use.
 Once you are a member of the NCI MS 365, clink the link above to take you to the cybfocus application.
 When the application is running, the following functions will be made available to the user.
 1. Click videos will take the user to the various sections of cybersecurity eLearning videos and lectures.
@@ -12,10 +11,13 @@ When the application is running, the following functions will be made available 
 3. Click articles in Homepage. this will provide the user hyperlinks to additional cybersecurity information.
 4. Contact Page will take the user to a message submission page to send questions or queiries to the administrator to get back to.
 
-# Power Apps Unpack and Pack msapp files
+# Power Apps Unpack and Pack msapp files 
+(not required to have access to NCI ms 365)
 You will require the PASopa tool.  To download and use:
 
 Install .NET Core SDK 3.1.x (x64).
 Clone the repo at https://github.com/microsoft/PowerApps-Language-Tooling
 Run build.cmd in the root directory.
 You can find PASopa.exe and needed dependencies in the bin\Debug\PASopa directory.
+
+Please follow video below for full unpack/pack instructions.
