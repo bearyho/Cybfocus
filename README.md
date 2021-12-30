@@ -11,3 +11,11 @@ When the application is running, the following functions will be made available 
 2. The quiz once selected will test the user using MCQ style questions of which there are 10. Once finished the app will give the user their result/10.
 3. Click articles in Homepage. this will provide the user hyperlinks to additional cybersecurity information.
 4. Contact Page will take the user to a message submission page to send questions or queiries to the administrator to get back to.
+
+# Power Apps Unpack and Pack msapp files
+You will require the PASopa tool.  To download and use:
+
+Install .NET Core SDK 3.1.x (x64).
+Clone the repo at https://github.com/microsoft/PowerApps-Language-Tooling
+Run build.cmd in the root directory.
+You can find PASopa.exe and needed dependencies in the bin\Debug\PASopa directory.
